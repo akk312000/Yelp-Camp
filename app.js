@@ -127,6 +127,7 @@ app.post(
     res.redirect(`/campgrounds/${campground._id}`);
   })
 );
+
 app.get("/makecampground", async (req, res) => {
   const camp = new Campground({
     title: "My backyard",
@@ -135,8 +136,18 @@ app.get("/makecampground", async (req, res) => {
   await camp.save();
   res.send(camp);
 });
+app.delete(
+  "/campgrounds/:id/reviews/:reviewId",
+  catchAsync(async (req, res) => {
+    const { id, reviewId } = req.params;
+    await Campground.findByIdAndUpdate(id, { $pull: { reviews: reviewId } });
+    await Review.findById(req.params.reviewId);
+    res.redirect(`/campgrounds/${id}`);
+    res.send("delete me");
+  })
+);
 app.all("*", (req, res, next) => {
-  next(new ExressError("page not found", 404));
+  next(new ExpressError("page not found", 404));
 });
 
 app.use((err, req, res, next) => {
