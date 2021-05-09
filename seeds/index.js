@@ -23,6 +23,7 @@ const seedDB = async () => {
     const random1000 = Math.floor(Math.random() * 1000);
     const price = Math.floor(Math.random() * 20) + 10;
     const camp = new Campground({
+      author: "609637e63d85bf27b4ca0a98",
       location: `${cities[random1000].city},${cities[random1000].state}`,
       title: `${sample(descriptors)} ${sample(places)}`,
       image: "https://source.unsplash.com/collection/11710947",
@@ -33,4 +34,6 @@ const seedDB = async () => {
   }
 };
 
-seedDB();
+seedDB().then(() => {
+  mongoose.connection.close();
+});
