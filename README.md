@@ -9,7 +9,7 @@ For Live Demo go to https://gentle-ocean-25080.herokuapp.com/
 # Features
 * Authentication:
 
- * User login with username and password
+  * User login with username and password
  
 * Authorization:
 
