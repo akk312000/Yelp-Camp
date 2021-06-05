@@ -8,12 +8,15 @@ For Live Demo go to https://gentle-ocean-25080.herokuapp.com/
 
 # Features
 * Authentication:
+* 
  * User login with username and password
+ 
 * Authorization:
 
  * One cannot manage posts and view user profile without being authenticated
  
  * One cannot edit or delete posts and comments created by other users
+ 
 * Manage campground posts with basic functionalities:
 
   * Create, edit and delete posts and comments
@@ -26,6 +29,6 @@ For Live Demo go to https://gentle-ocean-25080.herokuapp.com/
 
 * Manage user account with basic functionalities:
 
-  * Flash messages responding to users' interaction with the app
+  * Flash messages responding to user's interaction with the app
 
 
