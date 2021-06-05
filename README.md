@@ -7,25 +7,25 @@ Different users can put up their own reviews and share their own campgrounds, so
 for Live Demo go to https://gentle-ocean-25080.herokuapp.com/
 
 # Features#
-*Authentication:
- *User login with username and password
-*Authorization:
+* Authentication:
+ * User login with username and password
+* Authorization:
 
  * One cannot manage posts and view user profile without being authenticated
  
  * One cannot edit or delete posts and comments created by other users
-*Manage campground posts with basic functionalities:
+* Manage campground posts with basic functionalities:
 
-  *Create, edit and delete posts and comments
+  * Create, edit and delete posts and comments
 
-  *Upload campground photos
+  * Upload campground photos
 
-  *Display campground location on Google Maps (working on it)
+  * Display campground location on Google Maps (working on it)
 
-  *Search existing campgrounds
+  * Search existing campgrounds
 
-*Manage user account with basic functionalities:
+* Manage user account with basic functionalities:
 
-  *Flash messages responding to users' interaction with the app
+  * Flash messages responding to users' interaction with the app
 
 
