@@ -4,7 +4,7 @@ Different users can put up their own reviews and share their own campgrounds, so
 
 
 # Live Demo
-for Live Demo go to https://gentle-ocean-25080.herokuapp.com/
+For Live Demo go to https://gentle-ocean-25080.herokuapp.com/
 
 # Features
 * Authentication:
