@@ -1,5 +1,5 @@
 # Yelp-Camp
-A Node.js web application designed to add,rate and leave reviews from differentcampgrounds from all around the world.
+A Node.js web application designed to add,rate and leave reviews from different campgrounds from all around the world.
 Different users can put up their own reviews and share their own campgrounds, so that a person is well informed and well prepared before camping to a place.
 
 
