@@ -1,6 +1,7 @@
 # Yelp-Camp
-A Node.js web application designed to add,rate and leave reviews from different campgrounds from all around the world.
+A  Simple Node.js web application designed to add,rate and leave reviews from different campgrounds from all around the world.
 Different users can put up their own reviews and share their own campgrounds, so that a person is well informed and well prepared before camping to a place.
+
 
 
 # Live Demo
@@ -23,12 +24,14 @@ For Live Demo go to https://gentle-ocean-25080.herokuapp.com/
 
   * Upload campground photos
 
-  * Display campground location on Google Maps (working on it)
+  * Display campground location 
 
   * Search existing campgrounds
+  
+  * Display campground location on a cluster map
 
 * Manage user account with basic functionalities:
 
-  * Flash messages responding to user's interaction with the app
+  * Flash messages responding to user's interaction with the app 
 
 
