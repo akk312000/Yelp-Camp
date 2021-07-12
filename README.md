@@ -1,37 +1,83 @@
-# Yelp-Camp
-A  Simple Node.js web application designed to add,rate and leave reviews from different campgrounds from all around the world.
-Different users can put up their own reviews and share their own campgrounds, so that a person is well informed and well prepared before camping to a place.
+# Movie Recommender
+## Get Movie Recommendations Easily
 
 
 
-# Live Demo
-For Live Demo go to https://gentle-ocean-25080.herokuapp.com/
+A simple movie recommender website that recommends movies similar to queried movie , build using HTML,CSS, Javascript,Node.js,Express.js and EJS.
 
-# Features
-* Authentication:
+For Live Demo Go To - https://polar-chamber-42608.herokuapp.com/
 
-  * User login with username and password
- 
-* Authorization:
+This website uses TMDB API to get a list of recommended movies for a queried movie which is then displayed on the page in a card layout.
+- Built using HTML ,CSS ans Javascript
+- EJS for Templating
+- ✨TMDB API ✨
 
-  * One cannot manage posts and view user profile without being authenticated
 
-  * One cannot edit or delete posts and comments created by other users
 
-  * Manage campground posts with basic functionalities:
+## Features
 
-  * Create, edit and delete posts and comments
 
-  * Upload campground photos
+- Get Recommendations similar to your favourite movie
+- Watch Trailers
+- Get Average Ratings of a Movie across all platforms
+- Number of Votes of Users
+- Release Date
+- Brief Synopsis of a Movie
 
-  * Display campground location 
 
-  * Search existing campgrounds
+
+
+## Tech
+
+Movie Recommender uses a number of libraries and frameworks to work properly:
+
+- [Bootstrap] - Open Source CSS Framework having great UI boilerplate for modern web apps!
+- [TMDB API] - The main crux of the application
+- [axios] - Promise based HTTP client for the browser and node.js.
+- [ejs-mate] - layout, partial and block template functions for the EJS template engine
+- [node.js] - evented I/O for the backend
+- [Express] - fast node.js network app framework 
+- [body-parser] - Node.js body parsing middleware.
+
+- [method-override] - to use HTTP verbs such as PUT or DELETE in places where the client doesn't support it
+
+
+
+## Installation
+
+Movie Recommender requires [Node.js](https://nodejs.org/) v10+ to run.
+
+Download the ZIP file, install the dependencies using ```npm i```.
+
+
+Go to [TMDB API] get you API KEY and put it on .env file
+
+Now start the app using ```npm start app.js```
+
+
+
+
+
+
+
+
+
+
+
+
+[//]: # ()
+
+   [TMDB API]: <https://developers.themoviedb.org/3>
+   [axios]: <https://www.npmjs.com/package/axios>
+   [body-parser]: <https://www.npmjs.com/package/body-parser>
   
-  * Display campground location on a cluster map
+   [ejs-mate]: <https://www.npmjs.com/package/ejs-mate>
 
-* Manage user account with basic functionalities:
+   [node.js]: <http://nodejs.org>
+   [Bootstrap]: <https://getbootstrap.com/>
 
-  * Flash messages responding to user's interaction with the app 
+   [express]: <http://expressjs.com>
 
+   [method-override]: <https://www.npmjs.com/package/method-override>
 
+  
