@@ -8,7 +8,7 @@ A simple movie recommender website that recommends movies similar to queried mov
 For Live Demo Go To - https://polar-chamber-42608.herokuapp.com/
 
 This website uses TMDB API to get a list of recommended movies for a queried movie which is then displayed on the page in a card layout.
-- Built using HTML ,CSS ans Javascript
+- Built using HTML ,CSS and Javascript
 - EJS for Templating
 - ✨TMDB API ✨
 
